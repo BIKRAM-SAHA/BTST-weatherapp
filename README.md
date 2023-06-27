@@ -20,6 +20,13 @@
 
 ## Getting Started
 
+Remember to add .env file with values for:
+
+```bash
+NEXT_PUBLIC_WEATHER_API_URL 
+NEXT_PUBLIC_WEATHER_API_KEY 
+```
+
 Install all dependencies:
 
 ```bash
