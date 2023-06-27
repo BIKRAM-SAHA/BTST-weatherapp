@@ -12,7 +12,7 @@ function WeatherBox({
   return (
     <div className="card w-64 glass select-none pointer-events-none">
       <div className="card-body items-center">
-        <h2 className="card-title justify-center text-2xl">
+        <h2 className="card-title justify-center text-2xl whitespace-nowrap">
           {city}, {country}
         </h2>
         <div className="text-6xl text-center">{temperature}°C</div>
