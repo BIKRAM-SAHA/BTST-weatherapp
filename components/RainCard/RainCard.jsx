@@ -7,7 +7,7 @@ function RainCard({ humidity, precipitation, snow }) {
   return (
     <div className="card w-32 glass">
       <div className="card-body p-2">
-        <div className="flex gap-2 px-2 tooltip" data-tip="Relative Humidity">
+        <div className="flex gap-2 px-2 tooltip select-none" data-tip="Relative Humidity">
           <Image
             src={humidityIcon.src}
             alt="humidity icon"
@@ -17,7 +17,7 @@ function RainCard({ humidity, precipitation, snow }) {
           />
           {humidity.toFixed(0)} %
         </div>
-        <div className="flex gap-2 px-2 tooltip" data-tip="Rain">
+        <div className="flex gap-2 px-2 tooltip select-none" data-tip="Rain">
           <Image
             src={rainDropletIcon.src}
             alt="rain drop icon"
@@ -27,7 +27,7 @@ function RainCard({ humidity, precipitation, snow }) {
           />
           {precipitation.toFixed(0)} mm/hr
         </div>
-        <div className="flex gap-2 px-2 tooltip" data-tip="Snow">
+        <div className="flex gap-2 px-2 tooltip select-none" data-tip="Snow">
           <Image src={snowIcon.src} alt="snow icon" height={24} width={24} />
           {snow.toFixed(0)} mm/hr
         </div>

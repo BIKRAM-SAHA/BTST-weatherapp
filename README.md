@@ -40,3 +40,5 @@ npm run build
 ```
 
 ## Deploy Link
+
+[https://btst-weatherapp.vercel.app/](https://btst-weatherapp.vercel.app/)

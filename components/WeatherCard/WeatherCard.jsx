@@ -10,7 +10,7 @@ function WeatherBox({
   latitude,
 }) {
   return (
-    <div className="card w-64 glass">
+    <div className="card w-64 glass select-none pointer-events-none">
       <div className="card-body items-center">
         <h2 className="card-title justify-center text-2xl">
           {city}, {country}

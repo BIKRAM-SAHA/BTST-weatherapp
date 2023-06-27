@@ -48,17 +48,17 @@ function WindCard({ windSpeed, direction }) {
           <img
             src={compassBackground.src}
             alt="compass"
-            className="relative opacity-90"
+            className="relative opacity-90 select-none pointer-events-none"
           />
           <img
             src={compassNeedle.src}
             alt="compass needle"
-            className={`absolute top-[3.2rem] left-[1.1rem] opacity-90 transform ${rotateClasses[direction]} transition-transform duration-700 ease-in-out ${hoverClasses[direction]}`}
+            className={`absolute top-[3.2rem] left-[1.1rem] opacity-90 select-none pointer-events-none transform ${rotateClasses[direction]} transition-transform duration-700 ease-in-out ${hoverClasses[direction]}`}
             width={80}
           />
         </div>
         <div
-          className="flex gap-2 justify-center items-center px-2 pb-2 tooltip"
+          className="flex gap-2 justify-center items-center px-2 pb-2 tooltip select-none pointer-events-none"
           data-tip="Wind"
         >
           <Image src={windIcon.src} alt="" height={24} width={24} />
