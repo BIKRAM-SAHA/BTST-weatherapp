@@ -42,3 +42,8 @@ npm run build
 ## Deploy Link
 
 [https://btst-weatherapp.vercel.app/](https://btst-weatherapp.vercel.app/)
+
+
+## Walkthrough
+
+![walkthrough](https://github.com/BIKRAM-SAHA/BTST-weatherapp/blob/master/walkthrough.gif)
